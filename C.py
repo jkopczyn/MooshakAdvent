@@ -18,4 +18,10 @@ def main():
         segments.append([first_coord, second_coord])
     return "not crossing"
 
+def coord(string):
+    return [0,0]
+
+def check_intersection(first_line, second_line):
+    return True
+
 print main()
